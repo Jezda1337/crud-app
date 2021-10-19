@@ -1,0 +1,14 @@
+label:nth-child(3) {
+  display: flex;
+  align-items: center;
+}
+
+label:nth-child(3) > h2 {
+  margin: 0;
+  order: 1;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 1rem;
+}

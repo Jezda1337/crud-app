@@ -1,7 +1,20 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { Header, Form } from "./Components";
+
 const App = () => {
   return (
     <>
-      <h1>app component</h1>
+      <Router>
+        <Header />
+        <main>
+          <Switch>
+            <Route path="/newJob">
+              <Form />
+            </Route>
+          </Switch>
+        </main>
+      </Router>
     </>
   );
 };
