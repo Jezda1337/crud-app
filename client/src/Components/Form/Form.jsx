@@ -13,7 +13,7 @@ const Form = () => {
         />
         <Input type="file" title="Select job description image" />
 
-        <Input type="submit" />
+ <Input type="submit" />
       </form>
     </>
   );
